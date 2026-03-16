@@ -1,4 +1,11 @@
-body{
-    background-attachment: fixed;
-    background-color: aliceblue;
+body{scroll-behavior:smooth;}
+.menu-img{height:200px;object-fit:cover;}
+.card:hover{transform:scale(1.05);transition:0.3s;}
+footer{background:#111;}
+.carousel-caption {
+  background: rgba(0,0,0,0.5);
+  padding: 10px;
+  border-radius: 5px;
+  transition: opacity 0.5s;
 }
+body.scrolled .carousel-caption {opacity:0;}
